@@ -1,0 +1,14 @@
+.mesto__like {
+  background-image: url(../../../images/like.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #FFFFFF;
+  padding: 0;
+  width: 22px;
+  height: 19px;
+  border: 0;
+}
+
+.mesto__like:hover {
+  background-image: url(../../../images/like-hover.png);
+}

@@ -1,0 +1,17 @@
+.popup__about-info {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  min-width: 238px;
+  margin: 30px auto 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0 0 13px;
+}
+
+@media screen and (min-width: 1280px) {
+  .popup__about-info {
+    min-width: 358px;
+  }
+}

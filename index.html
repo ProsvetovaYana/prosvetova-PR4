@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Места</title>
+  <link rel="stylesheet" href="pages/index.css">
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__logo"></div>
+    </header>
+    <section class="profile">
+      <img class="profile__avatar" src="images/avatar.jpg" alt="фото профиля">
+      <div class="profile__info">
+        <div class="profile__name-edit">
+          <p class="profile__info-name">Жак-Ив Кусто</p>
+          <button class="profile__edit-button"></button>
+        </div>
+        <p class="profile__info-about">Исследователь океана</p>
+      </div>
+      <button class="profile__add-button"></button>
+    </section>
+    <section class="gallery">
+      <article class="mesto">
+        <img class="mesto__photo" src="images/karachaevsk.jpg" alt="Карачаево-Черкесия">
+        <div class="mesto__name">
+          <p class="mesto__title">Карачаево-Черкесия</p>
+          <button class="mesto__like mesto__like_active"></button>
+        </div>
+      </article>
+      <article class="mesto">
+        <img class="mesto__photo" src="images/dombay.jpg" alt="Домбай">
+        <div class="mesto__name">
+          <p class="mesto__title">Домбай</p>
+          <button class="mesto__like"></button>
+        </div>
+      </article>
+      <article class="mesto">
+        <img class="mesto__photo" src="images/elbrus.jpg" alt="Эльбрус">
+        <div class="mesto__name">
+          <p class="mesto__title">Эльбрус</p>
+          <button class="mesto__like"></button>
+        </div>
+      </article>
+      <article class="mesto">
+        <img class="mesto__photo" src="images/fudzi.jpg" alt="Фудзи">
+        <div class="mesto__name">
+          <p class="mesto__title">Фудзи</p>
+          <button class="mesto__like"></button>
+        </div>
+      </article>
+      <article class="mesto">
+        <img class="mesto__photo" src="images/norway.jpg" alt="Норвегия">
+        <div class="mesto__name">
+          <p class="mesto__title">Норвегия</p>
+          <button class="mesto__like"></button>
+        </div>
+      </article>
+      <article class="mesto">
+        <img class="mesto__photo" src="images/usa.jpg" alt="США">
+        <div class="mesto__name">
+          <p class="mesto__title">США</p>
+          <button class="mesto__like"></button>
+        </div>
+      </article>
+    </section>
+    <footer class="footer">
+      <p class="footer__copyright">&copy;&nbsp;2022 Mesto Russia</p>
+    </footer>
+  </div>
+  <section class="popup">
+    <div class="popup__container">
+      <button class="popup__close"></button>
+      <form class="popup__content">
+        <p class="popup__title">Редактировать профиль</p>
+        <input class="popup__name-info" type="text">
+        <input class="popup__about-info" type="text">
+        <button class="popup__save">Сохранить</button>
+      </form>
+    </div>
+  </section>
+  <script src="./scripts/index.js"></script>
+</body>
+
+</html>
